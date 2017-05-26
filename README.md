@@ -2,7 +2,7 @@
 
 C# Helpers classes to help you in your projects
 
-##Convertidor
+## Convertidor
 
 If you want convert Expressions to XElement is easy:
 
@@ -25,9 +25,11 @@ XElement x = convertidor.ToXElement(e);
 Expression result12 = convertidor.ToExpression(x);
 ```
 
-##ColeccionSet<T>
+## ColeccionSet<T>
 
-###ColeccionSet<T> : IList<T>, IList, ICollection<T>, ICollection, IEnumerable<T>, IEnumerable, IBindingListView, IBindingList, ICancelAddNew, IRaiseItemChangedEvents, INotifyCollectionChanged, IQueryable<T>, IQueryable, IOrderedQueryable<T>, IOrderedQueryable
+```
+public class ColeccionSet<T> : IList<T>, IList, ICollection<T>, ICollection, IEnumerable<T>, IEnumerable, IBindingListView, IBindingList, ICancelAddNew, IRaiseItemChangedEvents, INotifyCollectionChanged, IQueryable<T>, IQueryable, IOrderedQueryable<T>, IOrderedQueryable
+```
 
 All collections in one, you can use it in Windows Forms inside DataGridView, in WPF in your controls, etc.
 
