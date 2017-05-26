@@ -82,12 +82,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Abarsoft\PlantillasTT\Abarsoft.Helpers %28Portable%29.cs">
-      <Link>Abarsoft.Helpers %28Portable%29.cs</Link>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Abarsoft.Helpers %28Portable%29.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Abarsoft.Helpers.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -114,13 +109,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="..\..\Abarsoft\PlantillasTT\Abarsoft.Helpers %28Portable%29.tt">
-      <Link>Abarsoft.Helpers %28Portable%29.tt</Link>
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Abarsoft.Helpers %28Portable%29.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
